@@ -1,6 +1,6 @@
 # Annotated Examples
 
-Each example shows the generated output with inline annotations explaining what works and why.
+Each example follows the three-section structure: **背景 → 能力 → 动机**. Annotations explain what works and why.
 
 ---
 
@@ -12,25 +12,28 @@ Each example shows the generated output with inline annotations explaining what 
 
 ### Good Version
 
+> **[背景 — Background]**
 > Hi, I'm Alex. I've been building backend systems for seven years, the last three at ShopWave where I currently lead a team of four engineers focused on the order processing pipeline.
 >
-> The three things that map well to what you're looking for: *(clear structure, directly references JD match)*
+> **[能力 — Capabilities]**
+> The three areas that map well to what you're looking for:
 >
-> First, distributed systems experience — I led our migration from a monolithic Rails app to Go microservices. We broke out eight services over 18 months and cut p99 latency from 800ms to 120ms. *(specific technology, real metric, shows leadership)*
+> Distributed systems — I led our migration from a monolithic Rails app to Go microservices. We broke out eight services over 18 months and cut p99 latency from 800ms to 120ms. *(specific technology, real metric, shows leadership scope)*
 >
-> Second, Kafka — our order events flow through Kafka at about 50,000 messages per minute on peak days. I designed the partitioning strategy and handled exactly-once semantics for payment events. *(shows scale and depth, not just "used Kafka")*
+> Kafka — our order events flow through Kafka at about 50,000 messages per minute on peak days. I designed the partitioning strategy and handled exactly-once semantics for payment events. *(shows scale and depth, not just "used Kafka")*
 >
-> And third, I've been hands-on with both Java and Go. Our monolith was Java/Spring, the new services are Go, so I've been writing both in production for years. *(practical, not theoretical)*
+> And I've been hands-on with both Java and Go. Our monolith was Java/Spring, the new services are Go, so I've been writing both in production for years. *(practical experience, not theoretical)*
 >
-> What drew me to PayGrid — I've been following your engineering blog, especially the piece on idempotency keys in your payment API. That's a problem I've wrestled with and I'd love to work on it at your scale. *(shows genuine interest, references real content)*
+> **[动机 — Motivation]**
+> What drew me to PayGrid — I've been following your engineering blog, especially the piece on idempotency keys in your payment API. That's a problem I've wrestled with and I'd love to work on it at your scale. *(genuine interest, references real content)*
 >
-> Happy to dive deeper into any of these areas.
+> Happy to dive deeper into any of these areas. *(open ending, invites conversation)*
 
 **Why it works:**
 - Every claim connects to something in the JD
 - Numbers are specific (800ms → 120ms, 50k msg/min, 8 services)
-- The company connection references real content (engineering blog)
-- Flows naturally — no "firstly/secondly/finally" even though there's a three-point structure
+- The Motivation references a real engineering blog post, not "admire your culture"
+- Flows naturally — avoids "firstly/secondly/finally" despite having a three-point structure
 - Ends on an invitation to continue, not a dead stop
 
 ### Bad Version (what to avoid)
@@ -46,11 +49,12 @@ Each example shows the generated output with inline annotations explaining what 
 > Thank you for your time. That's all.
 
 **What's wrong:**
-- Technology laundry list — says nothing about depth
+- Technology laundry list — says nothing about depth on any of them
 - Generic adjectives (hardworking, dedicated) that every candidate claims
 - Zero specifics — no metrics, no projects, no real scope
 - Cliché closing ("esteemed organization", "ideal candidate")
 - "That's all" ending is a conversational dead end
+- No three-section structure — flat and undifferentiated
 
 ---
 
@@ -62,17 +66,22 @@ Each example shows the generated output with inline annotations explaining what 
 
 ### Good Version
 
+> **[背景]**
 > 面试官好，我是张琳，做了4年B端产品，一直聚焦在供应链方向。目前在云仓科技负责WMS产品线，面向中大型仓储客户。
 >
+> **[能力]**
 > 看了JD，跟我的经验匹配度很高，主要三个方面：
 >
-> 第一是供应链产品经验，我在WMS领域从0到1搭建过入库、拣货、盘点三条核心链路，现在每天有200多个仓库、大概3万操作员在用我们的产品。最直接的成果是帮标杆客户把拣货效率提升了40%。 *(具体领域、规模、可量化成果)*
+> 供应链产品经验 — 我在WMS领域从0到1搭建过入库、拣货、盘点三条核心链路，现在每天有200多个仓库、大概3万操作员在用我们的产品。最直接的成果是帮标杆客户把拣货效率提升了40%。 *(具体领域、规模、可量化成果)*
 >
-> 第二是数据驱动决策的习惯——我不靠拍脑袋做需求。我们接入了神策做全量埋点，我每周会看功能使用率和操作路径分析。有一个例子：通过数据分析发现拣货员来回走路占了40%的工时，我们优化了路径规划算法，客户续约率提高了15个百分点。 *(方法论+案例+影响)*
+> 数据驱动决策的习惯 — 我不靠拍脑袋做需求。我们接入了神策做全量埋点，我每周会看功能使用率和操作路径分析。有一个例子：通过数据分析发现拣货员来回走路占了40%的工时，我们优化了路径规划算法，客户续约率提高了15个百分点。 *(方法论+案例+影响)*
 >
-> 第三是复杂场景的抽象能力，B端产品不是画界面，是梳理业务流程。我习惯先出流程图和角色矩阵，对齐了再出原型，推的时候阻力小很多。
+> 复杂场景的抽象能力 — B端产品不是画界面，是梳理业务流程。我习惯先出流程图和角色矩阵，对齐了再出原型，推的时候阻力小很多。
 >
-> 选择投递贵公司，是因为你们在做的不只是单点SaaS，而是打通了供应链全链路，这个方向我觉得很有价值，也跟我想深耕的方向一致。以上是我的基本情况。 *(收尾自然，表示匹配度)*
+> **[动机]**
+> 选择投递贵公司，是因为你们在做的不只是单点SaaS，而是打通了供应链全链路，这个方向我觉得很有价值，也跟我想深耕的方向一致。 *(具体点名公司做的事，不是泛泛夸赞)*
+>
+> 以上是我的基本情况。 *(收尾自然，可继续对话)*
 
 ### Bad Version
 
@@ -86,9 +95,9 @@ Each example shows the generated output with inline annotations explaining what 
 
 **What's wrong:**
 - 大学、年龄对社招不重要，占用了宝贵的开场
-- "参与了多个项目" — 没有一个是具体的，也不知道候选人到底做了什么
+- "参与了多个项目" — 没有一个具体的，也不知道候选人到底做了什么
 - 优点太泛（细心、沟通能力），所有人都这么说
-- "我认为产品经理最重要的是..." — 面试官没问你的看法，这段是填时间的
+- "我认为产品经理最重要的是..." — 面试官没问你的看法，这是填时间的
 - 没有一个量化成果
 - "谢谢" 结尾无法引导对话继续
 
@@ -96,38 +105,51 @@ Each example shows the generated output with inline annotations explaining what 
 
 ## Example 3: New Grad Data Analyst (EN, 30 seconds)
 
-> Hi, I'm Jordan. I just graduated from NYU with a degree in Statistics, and I've spent the last year getting hands-on with real data — I interned at a healthcare startup where I built dashboards in Python and SQL that the operations team still uses daily for patient volume forecasting.
+> **[Background]**
+> Hi, I'm Jordan. I just graduated from NYU with a degree in Statistics.
 >
+> **[Capabilities]**
+> I've spent the last year getting hands-on with real data — I interned at a healthcare startup where I built dashboards in Python and SQL that the operations team still uses daily for patient volume forecasting.
+>
+> **[Motivation]**
 > What I'm excited about with this role at Medlytics is the chance to work with clinical data at scale and learn from a team that's already doing the kind of work I want to grow into.
 >
-> I'd love to tell you more about what I built and what I'm looking to learn.
+> I'd love to tell you more about what I built and what I'm looking to learn. *(open ending)*
 
 **Why it works (for new grad):**
 - Leads with education briefly (appropriate for entry level) but pivots fast to practical work
-- Has one concrete thing (healthcare dashboards, Python + SQL, still in use)
-- Frames lack of experience as eagerness to learn from a specific team (honest, not apologetic)
+- Has one concrete thing (healthcare dashboards, Python + SQL, still in daily use)
+- Motivation frames lack of experience as eagerness to learn from a specific team — honest, not apologetic
 - Short — 30 seconds is appropriate for a new grad who shouldn't over-talk
 
 ---
 
-## Example 4: Career Switcher (ZH, 1 minute)
+## Example 4: Career Switcher / 转行者 (ZH, 1 minute)
 
 **Background:** 之前在传统行业做项目管理3年，自学转行前端开发，刚完成一个半年的实习。
 
+> **[背景]**
 > 面试官好，我是王磊。我可能是今天候选人里背景比较特别的一个——之前做了3年制造业的项目管理，去年决定转前端开发。
 >
-> 这段经历其实是加分项：第一，我在项目管理中学到的需求拆解和风险预判能力，写代码的时候让我更清楚什么时候该深挖细节、什么时候该先跑通主流程。 *(把"不同"转化成"优势")*
+> **[能力]**
+> 这段经历其实是加分项：
 >
-> 第二，虽然是转行，我不是脑子一热就决定的。过去一年半我系统学了前端，从HTML/CSS到React/TypeScript再到Node.js，通过一个全栈项目——一个制造业看板系统——把整个链路串了一遍。这个项目在生产环境跑了三个月，每天大概50个人在用。 *(证明不是玩票，有能用的东西)*
+> 第一，我在项目管理中学到的需求拆解和风险预判能力，写代码的时候让我更清楚什么时候该深挖细节、什么时候该先跑通主流程。 *(把"不同"转化成"优势")*
 >
-> 第三，我的行业背景在贵公司做工业互联网产品时是有价值的——我懂工厂里的真实痛点，而不是对着PRD想象。
+> 第二，虽然转行，我不是脑子一热就决定的。过去一年半我系统学了前端，从HTML/CSS到React/TypeScript再到Node.js，通过一个全栈项目——一个制造业看板系统——把整个链路串了一遍。这个项目在生产环境跑了三个月，每天大概50个人在用。 *(证明不是玩票，有能用的东西)*
 >
-> 以上是我的情况。我也准备了作品集，随时可以聊细节。 *(留钩子，引导对话)*
+> 第三，我的行业背景对贵公司做工业互联网产品是有价值的——我懂工厂里的真实痛点，不是对着PRD想象。
+>
+> **[动机]**
+> 选择贵公司是因为工业互联网这个方向跟我的复合背景正好匹配。我既能写前端，也懂制造业的业务逻辑，希望能成为团队里视角最不一样的那个人。
+>
+> 以上就是我的情况。我也准备了作品集，随时可以聊细节。 *(留钩子，引导对话)*
 
 **Why it works:**
 - 开门见山承认"不一样"，避免面试官一直想"他以前不是做这个的"
 - 每一点都把潜在弱点变成差异化优势
 - 项目有具体数据（3个月/50人使用），不是Demo级别的玩具
+- 动机段把"不同"变成了核心竞争力
 - 结尾自然引出作品集，把对话主动权部分交给面试官
 
 ---
@@ -135,10 +157,12 @@ Each example shows the generated output with inline annotations explaining what 
 ## Quick Reference: Good vs Bad Signals
 
 | Signal | Good | Bad |
-|--------|------|-----|
+|:---|:---|:---|
 | Specificity | "Cut latency from 800ms to 120ms" | "Improved system performance" |
 | Role clarity | "I led the migration" | "The team migrated" (if you led it) |
 | JD connection | "Your blog post on idempotency keys..." | "I admire your company culture" |
 | Ending | "Happy to dive deeper" / "随时可以展开聊" | "That's all" / "谢谢" (hard stop) |
 | Language | Natural spoken flow | Written-essay tone |
-| Numbers | Real metrics from actual work | "Increased efficiency by 100%" (vague/hyperbolic) |
+| Numbers | Real metrics from actual work | "Increased efficiency by 100%" (too round, vague) |
+| Structure | Clear Background → Capabilities → Motivation | Flat list of facts with no arc |
+| Motivation | Names specific product / tech / direction | "Your company is a great place to work" |
